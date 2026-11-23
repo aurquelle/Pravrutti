@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 123ba809357ccf547b70af1a9ef5c2a4
+guid: 8b71b553e1da15f49930add98f2b32aa
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8673756312040429146
-    second: textbox_0
+      213: 4611839224112058332
+    second: Genderuwo_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: textbox_0
+      name: Genderuwo_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1422
-        height: 280
+        x: 142
+        y: 73
+        width: 2381
+        height: 4325
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6a92788f690a0a780800000000000000
-      internalID: -8673756312040429146
+      spriteID: cdf896af65b800040800000000000000
+      internalID: 4611839224112058332
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      textbox_0: -8673756312040429146
+      Genderuwo_0: 4611839224112058332
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

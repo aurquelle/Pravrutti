@@ -1,16 +1,19 @@
+using System;
 using UnityEngine;
 
 public class EnemyScript : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    public static EnemyScript current;
+    private void Awake()
+        {
+            current = this;
+        }
+    public event Action onAreaTriggerEnter;
+    public void AreaTriggerEnter()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        if (onAreaTriggerEnter != null)
+        {
+            onAreaTriggerEnter();
+        }
     }
 }

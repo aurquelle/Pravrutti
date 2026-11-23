@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 5587599951cedaa4aabf2cf65a575165
+guid: 8447f578cd35d974eb065d10f08db9f0
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6554736390298987251
-    second: cursor_0
+      213: 6348247903950618582
+    second: Pak Nyusup_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: cursor_0
+      name: Pak Nyusup_0
       rect:
         serializedVersion: 2
-        x: 240
-        y: 52
-        width: 315
-        height: 507
+        x: 65
+        y: 83
+        width: 1376
+        height: 1612
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3fae81cb40a17fa50800000000000000
-      internalID: 6554736390298987251
+      spriteID: 6df381d85d1891850800000000000000
+      internalID: 6348247903950618582
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      cursor_0: 6554736390298987251
+      Pak Nyusup_0: 6348247903950618582
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
