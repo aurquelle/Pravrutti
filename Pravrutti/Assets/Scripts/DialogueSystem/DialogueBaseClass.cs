@@ -15,7 +15,7 @@ namespace DialogueSystem
             {
                 textHolder.text += input[i];
                 SoundManager.instance.PlaySound(sound);
-                yield return new WaitForSeconds(0.005f);
+                yield return new WaitForSeconds(0.01f);
             }
 
             yield return new WaitUntil(() => Keyboard.current[Key.Space].wasPressedThisFrame);

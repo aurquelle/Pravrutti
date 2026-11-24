@@ -4,6 +4,9 @@ using UnityEngine.InputSystem;
 
 public class RadarCombatController : MonoBehaviour
 {
+    public RandomEnemySpawner enemySpawner;
+    public GameObject activeEnemy;
+
     [Header("Radar References")]
     public Transform radarPointer;
     public Transform radarBlips;
@@ -53,6 +56,12 @@ public class RadarCombatController : MonoBehaviour
     private float attackTimer;
 
     public bool combatActive = false;
+
+    public void SetEnemy(RandomEnemySpawner enemy, GameObject _activeEnemy)
+    {
+        enemySpawner = enemy;
+        activeEnemy = _activeEnemy;
+    }
 
     void Update()
     {

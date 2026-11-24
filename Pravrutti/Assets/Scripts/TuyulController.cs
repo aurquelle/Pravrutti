@@ -4,10 +4,10 @@ public class TuyulController : MonoBehaviour
     public GameObject Tuyul;
     private void Start()
     {
-        EnemyScript.current.onAreaTriggerEnter += OnEnemySpawn;
+        Tuyul.SetActive(false);
     }
 
-    private void OnEnemySpawn()
+    private void OnTriggerEnter(Collider other)
     {
         Tuyul.SetActive(true);
     }   
