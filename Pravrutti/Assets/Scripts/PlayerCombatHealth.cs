@@ -23,7 +23,7 @@ public class PlayerCombatHealth : MonoBehaviour
     {
         Debug.Log("Player defeated!");
 
-        // Add your game-over sequence here.
+        // Add game-over sequence here.
     }
 }
 

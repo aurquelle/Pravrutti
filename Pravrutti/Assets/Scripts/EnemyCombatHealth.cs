@@ -24,8 +24,8 @@ public class EnemyCombatHealth : MonoBehaviour
     {
         Debug.Log("Ghost defeated!");
 
-        // Add your ghost death animation here.
-        // You can also trigger your reward system here.
+        // Add ghost death animation here.
+        // Can also trigger reward system here.
     }
 }
 
