@@ -21,6 +21,8 @@ public class RadarCombatController : MonoBehaviour
 
     [Header("Radar Size")]
     public float radarRadius = 0.85f;
+    public float minimumSpawnRadius = 0.45f;
+    public float maximumSpawnRadius = 0.85f;
 
     [Header("Click Accuracy")]
     public float hitTolerance = 8f;
@@ -113,10 +115,10 @@ public class RadarCombatController : MonoBehaviour
 
         float angle = Random.Range(0f, 360f);
 
-        float radius = isAttack
-            ? radarRadius
-            : Random.Range(radarRadius * 0.45f,
-                           radarRadius * 0.9f);
+        float radius = Random.Range(
+            minimumSpawnRadius,
+            maximumSpawnRadius
+        );
 
         GameObject newDot = Instantiate(
             prefab,
@@ -161,7 +163,7 @@ public class RadarCombatController : MonoBehaviour
                     radarRadius,
                     0f,
                     progress
-                );
+                  );
 
                 UpdateDotPosition(dot);
 
